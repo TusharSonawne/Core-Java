@@ -14,12 +14,12 @@ public class findGreatestNum {
 		System.out.println("Enter third number");
 		int n3 = sc.nextInt();
 
-		if (n1 > n3 && n1 > n3) {
-			System.out.println(n1 + " is greatest");
+		if (n1 > n2 && n1 > n3) {
+			System.out.println(n1 + " is greatest number");
 		} else if (n2 > n1 && n2 > n3) {
-			System.out.println(n2 + " is greatest");
+			System.out.println(n2 + " is greatest number");
 		} else
-			System.out.println(n3 + " is greatest");
+			System.out.println(n3 + " is greatest number");
 
 		sc.close();
 	}
